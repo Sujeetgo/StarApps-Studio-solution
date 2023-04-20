@@ -89,7 +89,8 @@ input[type = "radio"]{
 .upload-icon{
     position: absolute;
     color: white;
-    width: 2px;
+    width: 1px;
+    text-align: center;
 
 }
 /* .cross{
@@ -103,9 +104,21 @@ input[type = "radio"]{
     font-size: 20px;
     font-weight: bold;
     z-index: 9999;
+    /* height: 35px; */
 }
 
 .upload-logo input::placeholder{
     text-align: center;
 }
+
+/* rotation for icon */
+
+.rotating {
+    animation: rotate 1s infinite linear;
+ }
+ 
+ @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+ }
 
