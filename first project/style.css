@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.umbrella-img{
+    margin-right: 120px;
+}
+.umbrella-img img{
+    width: 400px;
+    height:400px;
+}
+/* #pink-umb{
+    display: none;
+}
+#yellow-umb{
+    display: none;
+} */
+.details{
+    width: 400px;
+
+}
+h1{
+    margin-bottom: 10px;
+    /* text-align: center; */
+
+}
+/* .radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#blue{
+    background-color: blue;
+}
+input[type = "radio"]{
+    margin-right: 10px;
+} */
+.select-colors{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 25px;
+    margin-bottom: 10px;
+}
+#blue{
+    background: lightblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#pink{
+    background: lightpink;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#yello{
+    background: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.upload{
+    display: flex-start;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.upload-icon{
+    position: absolute;
+    color: white;
+    width: 2px;
+
+}
+/* .cross{
+    position: absolute;
+} */
+.upload-logo input{
+    /* height: 100%; */
+    width: 100%;
+    background-color: rgb(8, 188, 247);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.upload-logo input::placeholder{
+    text-align: center;
+}
+
